@@ -1,0 +1,100 @@
+body {
+    background-color: #f7f5ee;
+    color: #333; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+    text-align: center; 
+}
+
+.profile-pic {
+    display: block;
+    margin: 0 auto; 
+    width: 150px; 
+    border-radius: 50%; 
+}
+
+h1 {
+    color: #003262;
+    text-align: center;
+}
+
+h2 {
+    color: #0056b3; 
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.intro {
+    font-size: 18px;
+    color: #444; 
+    max-width: 600px;
+    margin: 10px auto;
+    text-align: left;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.resume-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #003262; 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.resume-btn:hover {
+    background-color: #002147;
+}
+
+.projects {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.projects li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+a {
+    color: #0056b3;
+}
+
+a:hover {
+    color: #002147;
+}
